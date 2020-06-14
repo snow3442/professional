@@ -1,0 +1,46 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'distribution'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+
+configurations {
+    developmentOnly
+    runtimeClasspath {
+        extendsFrom developmentOnly
+    }
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.12'
+    compile "org.apache.xmlgraphics:batik-all:1.12"
+    annotationProcessor 'org.projectlombok:lombok:1.18.12'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    mavenCentral()
+    jcenter()
+}
+
+java{
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+
+javafx {
+    version = "13"
+    modules = [ 'javafx.controls', 'javafx.swing']
+}
+
+mainClassName = 'com.jianqiu.svg_converter.Main'
+
