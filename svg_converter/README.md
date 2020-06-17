@@ -3,6 +3,8 @@
 Java SVG Converter Allows a user to choose any image and convert it 
 to Scalable Vector Graphics (SVG) and save it to desktop
 
+Watch a full demo at: https://www.youtube.com/watch?v=NauO9pRWNKY
+
 ## Getting Started
 This project is built with Intellij.
 Clone the repository and open the project with Intellij
