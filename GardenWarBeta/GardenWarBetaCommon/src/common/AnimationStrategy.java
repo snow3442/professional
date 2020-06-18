@@ -1,0 +1,8 @@
+package common;
+
+public enum AnimationStrategy {
+
+    PLANTEVOLVE, WILDFIRE, HURRICANE, PEST, DROUGHT, FLOOD, COLLECT, PESTICIDE, FERTILIZER, PLOWER,
+    TREEPROTECTED
+
+}

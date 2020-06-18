@@ -1,0 +1,340 @@
+.gamesquare{
+    -fx-border-width:2;
+    -fx-border-style:solid;
+    -fx-border-color: black;
+}
+
+.gameBoard{
+    -fx-background-color: rgba(0, 25, 0, 1);
+    -fx-border-width: 5;
+    -fx-border-color: rgba(0, 67, 0, 1)
+}
+
+.rightPane{
+    -fx-background-color: transparent;
+}
+.actionPane{
+    -fx-background-color:rgba(0, 0, 0, 0.5);
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10;
+    -fx-border-style: solid;
+
+}
+
+.actionPaneButton{
+    -fx-effect: dropshadow(three-pass-box , whitesmoke , 10, 0.0 , 0 , 1);
+}
+
+.actionPaneButton:hover{
+   -fx-effect: dropshadow(three-pass-box , white , 30, 0.0 , 0 , 1);
+}
+
+.actionPaneButton:pressed{
+    -fx-effect: dropshadow(three-pass-box , gold , 30, 0.0 , 0 , 1);
+}
+
+
+
+.playerPane1{
+    -fx-background-color:rgba(0, 0, 0, 0.5);
+    -fx-border-radius: 10 10 10 10;
+    -fx-border-width: 1;
+    -fx-background-radius: 10;
+    -fx-border-style: solid;
+    -fx-border-color: #a50c6e;
+}
+
+.playerPane2{
+    -fx-background-color:rgba(0, 0, 0, 0.5);
+    -fx-border-radius: 10 10 10 10;
+    -fx-border-width: 1;
+    -fx-background-radius: 10;
+    -fx-border-style: solid;
+    -fx-border-color: #12c12c;
+}
+
+.ivPlant1{
+    -fx-background-color: #a50c6e;
+    -fx-background-insets: -2, -2,-2,-2;
+}
+
+.ivPlant2{
+    -fx-background-color: #12c12c;
+    -fx-background-insets: -2, -2,-2,-2;
+}
+
+
+.userName{
+     -fx-font-family:"Algerian";
+     -fx-fill: whitesmoke;
+     -fx-font-size: 12px;
+     -fx-font-smoothing-type: lcd;
+
+}
+
+.lblPlayerInfo{
+    -fx-font-family:"Algerian";
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-smoothing-type: lcd;
+    -fx-effect: dropshadow(three-pass-box , gold , 5, 0.0 , 0 , 1);
+}
+
+.txtPlayerInfo{
+    -fx-font-family:"Algerian";
+    -fx-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-smoothing-type: lcd;
+}
+.resourceInfoPane{
+    -fx-background-color:transparent;
+}
+
+.seedsTree{
+     -fx-background-color:rgba(0, 0, 0, 0.3);
+     -fx-border-width: 1;
+     -fx-border-style: solid;
+     -fx-border-color: #12c12c;
+ }
+
+ .seedsTree .tree-cell {
+    -fx-font-family:"Algerian";
+    -fx-background-color:rgba(0, 0, 0, 0.3);
+    -fx-text-fill: green;
+    -fx-font-size: 12px;
+    -fx-font-smoothing-type: lcd;
+ }
+
+ .farmerTree{
+     -fx-background-color:rgba(0, 0, 0, 0.3);
+     -fx-border-width: 1;
+     -fx-border-style: solid;
+     -fx-border-color: gold;
+ }
+
+ .farmerTree .tree-cell {
+    -fx-font-family:"Algerian";
+    -fx-background-color:rgba(0, 0, 0, 0.3);
+    -fx-text-fill: gold;
+    -fx-font-size: 12px;
+    -fx-font-smoothing-type: lcd;
+ }
+
+ .policyTree{
+     -fx-background-color:rgba(0, 0, 0, 0.3);
+     -fx-border-width: 1;
+     -fx-border-style: solid;
+     -fx-border-color: purple;
+ }
+
+ .policyTree .tree-cell {
+    -fx-font-family:"Algerian";
+    -fx-background-color:rgba(0, 0, 0, 0.3);
+    -fx-text-fill: magenta;
+    -fx-font-size: 12px;
+    -fx-font-smoothing-type: lcd;
+ }
+
+
+.lblResource{
+    -fx-font-family:"Helvetica";
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-smoothing-type: lcd;
+    -fx-effect: dropshadow(three-pass-box , gold , 5, 0.0 , 0 , 1);
+}
+
+.txtResource{
+    -fx-font-family:"Algerian";
+    -fx-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-smoothing-type: lcd;
+    -fx-effect: dropshadow(three-pass-box , gold , 7, 0.0 , 0 , 1);
+}
+
+.btUseSell {
+    -fx-background-color:transparent;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box , whitesmoke , 10, 0.0 , 0 , 1);
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 13px;
+}
+.btUseSell Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 1, 0.0 , 0 , 1 );
+}
+
+.btUseSell:hover {
+    -fx-background-color: rgba(1,1,1,0.5);
+}
+btUseSell:pressed {
+    -fx-background-color: gold;
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1)
+}
+
+.scroll-bar{
+    -fx-background-color: rgba(192,192,192,0.12);
+    -fx-background-radius: 2em;
+}
+
+.scroll-bar: vertical {
+    -fx-pref-width:18px;
+}
+.scroll-bar >.viewport{
+    -fx-background-color: rgba(192,192,192,0.12);
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color:transparent;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:vertical .track-background,
+.scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: rgb(211,211,211);
+    -fx-background-insets: 4 0 4 0;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:vertical .thumb {
+    -fx-background-color: rgb(211,211,211);
+    -fx-background-insets: 0 4 0 4;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: rgb(231,231,231);
+}
+.scroll-bar:horizontal .thumb:pressed,
+.scroll-bar:vertical .thumb:pressed {
+    -fx-background-color: rgb(255,255,255);
+}
+.scroll-bar:vertical .increment-button, .scroll-bar:vertical .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 2em;
+    -fx-padding: 5;
+}
+.scroll-bar:horizontal .increment-button, .scroll-bar:horizontal .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 2em;
+    -fx-padding: 5;
+}
+.scroll-bar:horizontal .increment-arrow {
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-background-color: rgb(211,211,211);
+    -fx-padding: 0.25em;
+    -fx-rotate: -90;
+}
+.scroll-bar:vertical .increment-arrow {
+    -fx-background-color: rgb(211,211,211);
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: 0;
+}
+.scroll-bar:horizontal .decrement-arrow {
+    -fx-background-color: rgb(211,211,211);
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: 90;
+}
+.scroll-bar:vertical .decrement-arrow {
+    -fx-background-color: rgb(211,211,211);
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: -180;
+}
+.scroll-bar:vertical:focused,
+.scroll-bar:horizontal:focused {
+    -fx-background-color: transparent,rgb(96,96,96),rgb(96,96,96);
+}
+
+.sliderPane{
+    -fx-background-color:rgba(0, 0, 0, 0.9);
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: gold;
+}
+
+.lblSlideTitle{
+    -fx-font-family:"Algerian";
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-smoothing-type: lcd;
+
+}
+
+.txtSlideTitle{
+    -fx-font-family:"Helvetica";
+    -fx-fill: gold;
+    -fx-font-size: 15px;
+    -fx-font-smoothing-type: lcd;
+}
+
+.descriptionText{
+    -fx-font-family:"Helvetica";
+    -fx-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-smoothing-type: lcd;
+}
+
+.itemDescriptionPane{
+    -fx-background-color:rgba(0, 0, 0, 0.9);
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: #a50c6e;
+}
+
+
+.square1{
+    -fx-border-width:10;
+    -fx-border-style:solid;
+    -fx-border-color: #a50c6e;
+}
+
+.square2{
+    -fx-border-width:10;
+    -fx-border-style:solid;
+    -fx-border-color: #12c12c;
+}
+
+.squareLayerPane{
+    -fx-background-color: transparent;
+}
+
+
+.txtMaturity{
+    -fx-font-family:"Algerian";
+         -fx-fill: green;
+         -fx-font-size: 15px;
+         -fx-font-smoothing-type: lcd;
+         -fx-effect: dropshadow(three-pass-box , gold , 7, 0.0 , 0 , 1);
+}
+
+
+.squareLayerPane{
+    -fx-background-color: transparent;
+}
+
+.txtMaturity1{
+     -fx-font-family:"Algerian";
+     -fx-fill: pink;
+     -fx-font-size: 15px;
+     -fx-font-smoothing-type: lcd;
+     -fx-effect: dropshadow(three-pass-box , gold , 7, 0.0 , 0 , 1);
+}
+
+.txtMaturity2{
+    -fx-font-family:"Algerian";
+         -fx-fill: green;
+         -fx-font-size: 15px;
+         -fx-font-smoothing-type: lcd;
+         -fx-effect: dropshadow(three-pass-box , gold , 7, 0.0 , 0 , 1);
+}
+
+

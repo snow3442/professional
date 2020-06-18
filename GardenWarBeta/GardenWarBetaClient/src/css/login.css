@@ -1,0 +1,40 @@
+#background-rect {
+ -fx-fill: rgba(0, 36, 10, 0.7);
+ -fx-stroke-color: black;
+ -fx-stroke-width: 1.5;
+}
+
+.lblLogin{
+    -fx-font-family:"Helvetica";
+    -fx-text-fill: whitesmoke;
+    -fx-font-size: 14px;
+    -fx-font-smoothing-type: lcd;
+}
+
+.lblTitleLogin{
+    -fx-font-family:"Algerian";
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-smoothing-type: lcd;
+}
+
+.inputsLogin{
+    -fx-padding: 20, 0, 20, 40
+}
+
+.button-dark-blue {
+    -fx-background-color:
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Algerian";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20;
+}
+.button-dark-blue Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 1, 0.0 , 0 , 1 );
+}
