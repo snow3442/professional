@@ -55,7 +55,10 @@ public class Main extends Application {
         });
         //close the server upon closing window
         primaryStage.setOnCloseRequest(e -> {
-            server.shutDownHub();
+            if(server!=null) {
+                server.shutDownHub();
+            }
+            System.exit(0);
             Platform.exit();
         });
     }
