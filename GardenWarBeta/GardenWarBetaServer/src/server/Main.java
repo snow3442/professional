@@ -34,12 +34,6 @@ public class Main extends Application {
         primaryStage.setTitle("Garden War Beta Server");
         primaryStage.setScene(scene);
         primaryStage.show();
-        //close the server upon closing window
-        primaryStage.setOnCloseRequest(e -> {
-            server.shutDownHub();
-            Platform.exit();
-        });
-
         btHost.setOnAction(e->{
             try{
                 port = Integer.parseInt(tfPort.getText().trim());
@@ -58,6 +52,11 @@ public class Main extends Application {
                 ex.printStackTrace();
             }
             btHost.setVisible(false);
+        });
+        //close the server upon closing window
+        primaryStage.setOnCloseRequest(e -> {
+            server.shutDownHub();
+            Platform.exit();
         });
     }
 
