@@ -2,6 +2,8 @@
 
 A multi-player networking, turn-based game with the theme of climate change
 
+Watch full demo at: https://www.youtube.com/watch?v=uidJxmCEnNg
+
 ## Getting Started
 This project is built with Intellij, it is therefore recommended to 
 use Intellij IDE to open the project to facilitate configurations
